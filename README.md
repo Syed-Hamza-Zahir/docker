@@ -15,4 +15,4 @@
 - Docker engine connects the container with the OS and only uses the resources required
 - VM works with Hypervisor to connect guest OS/VM with Host OS
 
-![docker-vs-vm](docker-vs-vm.png)
+![container-vs-vm](container-vs-vm.png)
