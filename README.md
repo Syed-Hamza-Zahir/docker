@@ -1,13 +1,12 @@
 # Containerisation with Docker
 
 ## What is Docker
-
-![img](img/docker.png)
-
 - Docker is an open-source platform for developing, shipping, and running applications
 - It enables us to separate applications from the infrastructure
 - It delivers software faster
 - Docker is written in GO language
+
+![docker](docker.png)
 
 ## Docker vs VM 
 - Docker is lightweight and user-friendly
