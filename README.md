@@ -64,12 +64,10 @@ docker run -d -p 80:80 nginx
 #### Replacing nginx default page 
 
 ```
-docker cp index.html a4700feaa1c0:/usr/share/nginx/html
+docker cp index.html <container_id>:/usr/share/nginx/html
 ```
 #### Commit to save changes to image, then push to dockerhub 
 ```
-# docker commit <container_id> brittanyharrison/repo_name
-docker push brittanyharrison/repo_name
+# docker commit <container_id> smhzaihr/eng114_syed_docker
+docker push smhzaihr/eng114_syed_docker
 
-```
-**Note**:Repository name and local folder name must match
