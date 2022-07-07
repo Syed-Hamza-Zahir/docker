@@ -64,9 +64,17 @@ docker run -d -p 80:80 nginx
 
 ```
 docker cp index.html <container_id>:/usr/share/nginx/html
+
+````
+To build the image run the commad:
+# The . is the current location 
+```
+docker build -t smhzaihr/node_app .
+
 ```
 #### Commit to save changes to image, then push to dockerhub 
 ```
 # docker commit <container_id> smhzaihr/eng114_syed_docker
 docker push smhzaihr/eng114_syed_docker
+
 
